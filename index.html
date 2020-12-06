@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="css-content">
+            <div class="js-clock clock">
+                <h1>00:00</h1>
+            </div>
+            <form class="js-nameForm nameForm">
+                <input type="text" placeholder="What is your name?"/>
+            </form>
+            <h4 class="js-welcome welcome"></h4>
+            <form class="js-toDoForm">
+                <input class="js-toDoInput" type="text" placeholder="Add Task in Here" />
+            </form>
+            <div class="pendinglist">
+                <h2 class="pending">Pending</h2>
+                <ul class="js-pendingList" />
+            </div>
+            <div class="finishedlist">
+                <h2 class=finished>Finished</h2>
+                <ul class="js-finishedList" />
+            </div>
+        </div>
+        <span class="js-weather"></span>
+        <script src="clock.js"></script>
+        <script src="welcome.js"></script>
+        <script src="todolist.js"></script>
+        <script src="bgimages.js"></script>
+        <script src="weather.js"></script>
+    </body>
+</html>
